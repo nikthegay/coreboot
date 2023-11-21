@@ -71,10 +71,10 @@ endchoice
 
 config EDK2_REPOSITORY
 	string "URL to git repository for edk2"
-	default "https://github.com/starlabsltd/edk2" if EDK2_UNIVERSAL_PAYLOAD
-	default "https://github.com/mrchromebox/edk2" if EDK2_REPO_MRCHROMEBOX
-	default "https://github.com/tianocore/edk2" if EDK2_REPO_OFFICIAL
-	default "" if EDK2_REPO_CUSTOM
+	default "https://github.com/nikthegay/edk2" if EDK2_UNIVERSAL_PAYLOAD
+	default "https://github.com/nikthegay/edk2" if EDK2_REPO_MRCHROMEBOX
+	default "https://github.com/nikthegay/edk2" if EDK2_REPO_OFFICIAL
+	default "https://github.com/nikthegay/edk2" if EDK2_REPO_CUSTOM
 	help
 	  coreboot supports an array of build options which can be found below. These options
 	  will only have an effect if the relevant options exist in the target repository.
